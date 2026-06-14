@@ -1,0 +1,17 @@
+{
+  "name": "ama-twumwaa-imports",
+  "version": "1.0.0",
+  "description": "E-commerce platform for Ama Twumwaa Imports dress business in Ghana",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run dev\"",
+    "build": "npm run build --prefix frontend && npm run build --prefix backend",
+    "start": "npm start --prefix backend"
+  },
+  "keywords": ["ecommerce", "ghana", "paystack", "dress", "fashion"],
+  "author": "Raphael Amoah",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}

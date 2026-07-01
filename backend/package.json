@@ -2,10 +2,10 @@
   "name": "ama-twumwaa-backend",
   "version": "1.0.0",
   "description": "Backend API for Ama Twumwaa Imports E-Commerce Platform",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
     "db:setup": "node database/setup.js"
   },
   "keywords": ["ecommerce", "ghana", "paystack", "express", "nodejs"],
@@ -21,7 +21,9 @@
     "nodemailer": "^6.9.6",
     "cloudinary": "^1.40.0",
     "axios": "^1.6.0",
-    "express-validator": "^7.0.0"
+    "express-validator": "^7.0.0",
+    "helmet": "^6.0.1",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
